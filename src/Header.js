@@ -8,7 +8,7 @@ function Header() {
                <p>Logout</p>
             </li>
             <li>
-               <p>My </p>
+               <p>My Account</p>
             </li>
         </ul>
       </div>
