@@ -5,10 +5,10 @@ function Header() {
       <div className='header'>
         <ul>
             <li>
-               <p>Logout</p>
+               <p>Your Shop</p>
             </li>
             <li>
-               <p>My Account</p>
+               <p>Logout</p>
             </li>
         </ul>
       </div>

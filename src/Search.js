@@ -7,12 +7,10 @@ function Search() {
     <div>
         <Form>
             <Form.Group size="lg" controlId="email">
-                <Form.Label>Search</Form.Label>
                 <Form.Control
-                    autoFocus
+                        placeholder="Search for a product"
                 />
             </Form.Group>
-            <Button block size="lg" type="submit" >Search</Button>
         </Form>
     </div>
   )

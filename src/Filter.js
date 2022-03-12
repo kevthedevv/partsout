@@ -1,9 +1,15 @@
 import React from 'react'
+import Search from './Search'
+import partsout from './partsout.png'
 
 function Filter() {
   return (
     <div className='filter'>
-        <ul>
+       <div className='logo'>
+       <img src={partsout} alt="Girl in a jacket"></img>
+      </div>
+      <div className='parts'>
+      <ul>
             <li>
                <p>CPU</p>
             </li>
@@ -29,6 +35,10 @@ function Filter() {
                <p>Keyboard</p>
             </li>
         </ul>
+      </div>
+        <div className='search'>
+            <Search />
+        </div>
       </div>
   )
 }

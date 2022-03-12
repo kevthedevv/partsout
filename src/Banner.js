@@ -1,10 +1,11 @@
 import React from 'react'
+import banner from './banner.jpg'
 
 function Banner() {
   return (
-    <div>
-        <img src="img_girl.jpg" alt="Girl in a jacket"></img>
-    </div>
+    <div className='banner'>
+       <img src={banner} alt="banner"></img>
+</div>
 
   )
 }
