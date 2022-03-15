@@ -1,16 +1,19 @@
 import React from 'react'
-import styled from 'styled-components'
-import Navbar from '../components/Navbar'
+import Announcement from '../components/Announcement'
 
-const Container = styled.div`
-    height: 50px;
-    background-color: black;
-`
+import Navbar from '../components/Navbar'
+import Slider from '../components/Slider'
+
+
 
 
 const Home = () => {
   return (
-    <div><Navbar/></div>
+    <div>
+      <Announcement/>
+      <Navbar/>
+      <Slider/>
+      </div>
   )
 }
 
