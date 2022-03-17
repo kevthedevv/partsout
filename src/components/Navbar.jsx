@@ -47,6 +47,7 @@ const SearchInput = styled.input`
   border: none;
   padding: 10px;
   width: 100%;
+  
 `
 const MenuItem = styled.div`
   font-size: 14px;
@@ -64,7 +65,7 @@ const Navbar = () => {
         <Center>
           <SearchContainer>
             <SearchInput/>
-           <Search style={{color: "gray", padding: "10px, 0, 10px, 0"}}/>
+           <Search style={{color: "gray", padding: "10px, 0, 10px, 0" }}/>
           </SearchContainer>
         </Center>
         <Right>
