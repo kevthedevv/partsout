@@ -8,9 +8,10 @@ const Container = styled.div`
   height: 60px;
   width: 80%;
   margin: auto;
+ 
 `;
 const Wrapper = styled.div`
-  padding: 10px 20px;
+  padding: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,6 +31,7 @@ const Right = styled.div`
   justify-content: flex-end;
 `
 const Logo = styled.img`
+  
   width: 100px;
   height: 30px;
   cursor: pointer;
